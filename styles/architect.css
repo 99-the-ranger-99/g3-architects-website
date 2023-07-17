@@ -126,7 +126,8 @@ main {
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
 .features-img img{
-    height: 90%;
+    width: 44rem;
+    height: 95%;
     margin-left: 112px;
 
 }
@@ -191,6 +192,20 @@ main {
 }
 
 
+/* footer */
+footer {
+    border-radius: 8px;
+    background: #FFF4E7;
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+.footer-des {
+    text-align: center;
+    padding-top: 39px;
+}
 
 
 
@@ -210,8 +225,9 @@ main {
         flex-direction: column;
     }
     .features-img img {
-        width: 100%;
+        width: 20rem;
         margin-left: 0;
+        margin-right: 30px;
     }
     .ten-years-badge{
         position: static;
@@ -227,6 +243,9 @@ main {
     }
     .facts-card-container{
         gap: 20px;
+    }
+    footer{
+        width: 100%;
     }
 }
 
@@ -245,5 +264,8 @@ main {
         grid-template-columns: repeat(2,1fr);
         padding-left: 150px;
         /* margin: 0 auto; */
+    }
+    footer{
+        width: 100%;
     }
 }
